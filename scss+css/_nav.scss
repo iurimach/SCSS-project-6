@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    background-color: #1f233e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .nav{
+        max-width: 900px;
+        width: 90%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+     }
+    
+    .navlogo{
+        width: 70px;
+        
+        
+    }
+    .navul{
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+        
+            
+       li{
+        color: white;
+        display: flex;
+        margin-right: 30px;
+        }
+            li a{
+                text-decoration: none;
+                color: white;
+            }   
+                li a:hover{
+                    color: red;
+                }     
+    }      
+ }
+
