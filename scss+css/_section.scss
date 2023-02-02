@@ -2,9 +2,8 @@
 
 .section1{
     background-image: url("../img/banner.jpg");
-    max-width: 1380px;
     width: 100%; 
-    height: 600px;
+    height: 800px;
     background-size: cover;
     background-repeat: no-repeat; 
     margin-top: -20px;
@@ -92,11 +91,12 @@
 }
 
 .nall{width: 100%; height: 80px;}
-.div3header{font-size: 35px; margin-top: 90px; margin-left: 90px;  word-spacing:10px; letter-spacing: 3px;
+.div3header{font-size: 35px;display: flex; justify-content: center; margin-top: 90px;   word-spacing:10px; letter-spacing: 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-.div3header::before {content: ""; border: 1px solid #36bb25;; width: 130px; }
+.div3header::before {content: ""; border: 1px solid #36bb25;;  }
+
 .section3{
-    max-width: 1300px;
+   width: 100%;
     height: 800px;
     margin-top: 40px;
     .boxsect3{

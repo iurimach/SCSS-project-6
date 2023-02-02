@@ -93,9 +93,8 @@ table {
 
 .section1 {
   background-image: url("../img/banner.jpg");
-  max-width: 1380px;
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -20px;
@@ -204,8 +203,9 @@ table {
 
 .div3header {
   font-size: 35px;
+  display: flex;
+  justify-content: center;
   margin-top: 90px;
-  margin-left: 90px;
   word-spacing: 10px;
   letter-spacing: 3px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -214,11 +214,10 @@ table {
 .div3header::before {
   content: "";
   border: 1px solid #36bb25;
-  width: 130px;
 }
 
 .section3 {
-  max-width: 1300px;
+  width: 100%;
   height: 800px;
   margin-top: 40px;
 }
@@ -248,8 +247,7 @@ table {
 }
 
 .section4 .sect4header {
-  max-width: 1000px;
-  width: 80%;
+  width: 1000px;
   height: 100px;
   margin: 0 auto;
 }
@@ -274,7 +272,7 @@ table {
   margin-bottom: 30px;
 }
 .section4 .section4img {
-  max-width: 1200px;
+  width: 1200px;
   height: 500px;
   margin: 0 auto;
   display: flex;
